@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C465A2018B6C99C0039CBF0 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C465A1F18B6C99C0039CBF0 /* CGPointExtension.m */; };
 		7BB3A7B317E9F08700BEA141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB3A7B217E9F08700BEA141 /* Foundation.framework */; };
 		7BB3A7B517E9F08700BEA141 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB3A7B417E9F08700BEA141 /* CoreGraphics.framework */; };
 		7BB3A7B717E9F08700BEA141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB3A7B617E9F08700BEA141 /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		7BB3A7E817E9F31800BEA141 /* LIYMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A7E717E9F31800BEA141 /* LIYMainScene.m */; };
 		7BB3A7ED17E9FC3B00BEA141 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB3A7EC17E9FC3B00BEA141 /* Storyboard.storyboard */; };
 		7BB3A7F017EA01CC00BEA141 /* LIYBoid.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3A7EF17EA01CC00BEA141 /* LIYBoid.m */; };
-		7BC8370717F45A3E00A1E371 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC8370617F45A3E00A1E371 /* CGPointExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C465A1D18B6C99C0039CBF0 /* ccMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccMacros.h; sourceTree = "<group>"; };
+		5C465A1E18B6C99C0039CBF0 /* CGPointExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointExtension.h; sourceTree = "<group>"; };
+		5C465A1F18B6C99C0039CBF0 /* CGPointExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPointExtension.m; sourceTree = "<group>"; };
 		7BB3A7AF17E9F08700BEA141 /* Boids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB3A7B217E9F08700BEA141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BB3A7B417E9F08700BEA141 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +63,6 @@
 		7BB3A7EC17E9FC3B00BEA141 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		7BB3A7EE17EA01CC00BEA141 /* LIYBoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIYBoid.h; path = ../LIYBoid.h; sourceTree = "<group>"; };
 		7BB3A7EF17EA01CC00BEA141 /* LIYBoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIYBoid.m; path = ../LIYBoid.m; sourceTree = "<group>"; };
-		7BC8370417F45A2500A1E371 /* ccMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccMacros.h; path = ../../../../../Documents/BoidsExample/libs/cocos2d/ccMacros.h; sourceTree = "<group>"; };
-		7BC8370517F45A3E00A1E371 /* CGPointExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPointExtension.h; path = ../../../../../Documents/BoidsExample/libs/cocos2d/Support/CGPointExtension.h; sourceTree = "<group>"; };
-		7BC8370617F45A3E00A1E371 /* CGPointExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPointExtension.m; path = ../../../../../Documents/BoidsExample/libs/cocos2d/Support/CGPointExtension.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +92,9 @@
 		7BB3A7A617E9F08700BEA141 = {
 			isa = PBXGroup;
 			children = (
-				7BC8370517F45A3E00A1E371 /* CGPointExtension.h */,
-				7BC8370617F45A3E00A1E371 /* CGPointExtension.m */,
-				7BC8370417F45A2500A1E371 /* ccMacros.h */,
+				5C465A1D18B6C99C0039CBF0 /* ccMacros.h */,
+				5C465A1E18B6C99C0039CBF0 /* CGPointExtension.h */,
+				5C465A1F18B6C99C0039CBF0 /* CGPointExtension.m */,
 				7BB3A7EC17E9FC3B00BEA141 /* Storyboard.storyboard */,
 				7BB3A7C117E9F08700BEA141 /* LIYAppDelegate.h */,
 				7BB3A7C217E9F08700BEA141 /* LIYAppDelegate.m */,
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC8370717F45A3E00A1E371 /* CGPointExtension.m in Sources */,
+				5C465A2018B6C99C0039CBF0 /* CGPointExtension.m in Sources */,
 				7BB3A7E317E9F0E100BEA141 /* LIYMainViewController.m in Sources */,
 				7BB3A7BF17E9F08700BEA141 /* main.m in Sources */,
 				7BB3A7E817E9F31800BEA141 /* LIYMainScene.m in Sources */,
